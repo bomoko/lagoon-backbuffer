@@ -19,6 +19,10 @@ the directory structure of the POC is as follows
 -- Furthermore, it has a command "content-deploy" that will copy anything from the backbuffer to the front-buffer (i.e. from /build/public to /app/dist)
 
 
+## Configuration
+
+By default, the backbuffer directory will be `/build/public` - but can be set by setting the `LAGOON_BACKBUFFER` environment variable.
+
 
 ## TODO
 

@@ -9,6 +9,6 @@
   },
   "scripts": {
     "start": "./node_modules/http-server/bin/http-server ./dist/ -p 3000",
-    "content-deploy": "rsync -av --delete /build/public/ ./dist/"
+    "content-deploy": "./scripts/content-deploy.sh"
   }
 }
