@@ -1,7 +1,9 @@
 #!/bin/sh
 
-cd /build
-backbufferbuild.sh
+set -e
+
+cd /build/
+/build/backbufferbuild.sh
 
 cd /app
 
