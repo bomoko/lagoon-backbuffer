@@ -23,6 +23,13 @@ the directory structure of the POC is as follows
 
 By default, the backbuffer directory will be `/build/public` - but can be set by setting the `LAGOON_BACKBUFFER` environment variable.
 
+Further, in this POC, we expect that there is an sh script in the "app" directory called "backbufferbuild.sh" which will be called by the content deploy script - if this fails, we will not move the backbuffer out to the frontbuffer.
+
+
+## Triggering build and buffer swap
+
+In the running container run `yarn content-deploy`
+
 
 ## TODO
 
