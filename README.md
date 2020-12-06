@@ -2,7 +2,7 @@
 
 The problem that we'd like to solve is that of the content/code divide in static sites.
 
-There are two reasons to rebuild a static site. First, the actual code changes. Second, there's a content change, and we thus need to rebuild simply to address this new content.
+There are two reasons to rebuild a static site. First, the actual code changes. Second, there's a content change (say, in data exposed by some external GraphQL endpoint, or a DB), and we thus need to rebuild simply to address this new content.
 
 
 Ideally we'd like to be able to have our application redepolyed on _code_ changes, but still have the static assets rebuild on content changes.
